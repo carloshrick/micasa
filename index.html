@@ -1,59 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Importando o Bootstrap-->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap"
-      rel="stylesheet"
-    />
+  <!--Importando o Bootstrap-->
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap"
+    rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
 
-    <!--Icons Bootstrap-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
-    />
+  <!--Icons Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
 
-    <link rel="stylesheet" href="./css/estilo.css">
+  <link rel="stylesheet" href="./css/estilo.css">
 
-    <title>My house - Carlos H.</title>
-  </head>
+  <title>My house - Carlos H.</title>
+</head>
 
 <header>
-  <nav class="navbar navbar-expand-lg fixed-top bg-color" >
+  <nav class="navbar navbar-expand-lg fixed-top bg-color">
     <section class="container py-3 cabecalho">
       <a href="" class="navbar-brand">
         <img src="./images/silhueta-de-icone-de-casa.png" class="img-fluid" id="logo" />
       </a>
 
 
-        <button type="button" 
-        class="navbar-toggler" 
-        data-bs-target="#navbar-items"
-        data-bs-toggle= "collapse"
-        aria-label="Toggle navigation"
-        aria-controls="navbar-items"
-        aria-expanded="false"> <i class="bi bi-list position-relative "></i> 
-        </button>
+      <button type="button" class="navbar-toggler" data-bs-target="#navbar-items" data-bs-toggle="collapse"
+        aria-label="Toggle navigation" aria-controls="navbar-items" aria-expanded="false"> <i
+          class="bi bi-list position-relative "></i>
+      </button>
 
       <section class="collapse navbar-collapse" id="navbar-items">
 
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-link" >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-link">
 
           <li class="nav-item links"><a class="nav-link" href="">Home</a></li>
           <li class="nav-item links"><a class="nav-link" href="">Projetos</a></li>
@@ -63,238 +51,327 @@
 
         </ul>
 
-        </section>
-
       </section>
-      
-    </nav>
-  </header>
+
+    </section>
+
+  </nav>
+</header>
 
 
 
 <body>
 
-<!--Slider-->
+  <!--Slider-->
 
-<section class="container" id="slider-container">
-  <section class="carousel slide" id="slider" data-bs-interval="7000" data-bs-ride="carousel">
-    <section class="carousel-indicators top-0">
-
-
-<button
-type="button"
-class="active"
-data-bs-target="#slider"
-data-bs-slide-to="0"
-aria-current="true"
-aria-label="slide1">
-</button>
+  <section class="container" id="slider-container">
+    <section class="carousel slide" id="slider" data-bs-interval="7000" data-bs-ride="carousel">
+      <section class="carousel-indicators top-0">
 
 
-<button
-type="button"
-data-bs-target="#slider"
-data-bs-slide-to="1"
-aria-label="slide2">
-</button>
+        <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="0" aria-current="true"
+          aria-label="slide1">
+        </button>
 
 
-<button
-type="button"
-data-bs-target="#slider"
-data-bs-slide-to="2"
-aria-label="slide3">
-</button>
+        <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="slide2">
+        </button>
 
 
-<button
-type="button"
-data-bs-target="#slider"
-data-bs-slide-to="3"
-aria-label="slide4">
-</button>
-    </section>
-
-<section class="carousel-inner">
-  <section class="carousel-item active">
-    <img src="images/casa1.jpg" alt="imagem 1" class="d-block w-100 carrosel img-fluid">
-    <section class="carousel-caption position-absolute top-50">
-    <h5></h5>
-    <a href="" class="btn btn-dark botao-slider">Veja Mais</a>
-  </section>
-</section>
+        <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="slide3">
+        </button>
 
 
-  <section class="carousel-item">
-    <img src="images/casa2.jpg" alt="imagem 2" class="d-block w-100 carrosel img-fluid">
-    <section class="carousel-caption position-absolute top-50"><h5></h5>
-      <a href="" class="btn btn-dark botao-slider">Veja Mais</a></section>
-  </section>
+        <button type="button" data-bs-target="#slider" data-bs-slide-to="3" aria-label="slide4">
+        </button>
+      </section>
 
-
-
-  <section class="carousel-item">
-    <img src="images/casa3.jpg" alt="imagem 3" class="d-block w-100 carrosel img-fluid">
-    <section class="carousel-caption position-absolute top-50">
-      <h5></h5>
-      <a href="" class="btn btn-dark botao-slider">Veja Mais</a>
-    </section>
-  </section>
-
-
-
-  <section class="carousel-item"><img src="images/casa4.jpg" alt="imagem 4" class="d-block w-100 carrosel img-fluid">
-    <section class="carousel-caption position-absolute top-50"><h5></h5>
-      <a href="" class="btn btn-dark botao-slider">Veja Mais</a></section>
-  </section>
-
-  <button type="button" class="carousel-control-prev" data-bs-target="#slider"
-  data-bs-slide="prev"><i class="bi bi-arrow-left-short seta "></i></button>
-  
-  <button type="button" class="carousel-control-next" data-bs-target="#slider"
-  data-bs-slide="next"><i class="bi bi-arrow-right-short seta "></i></button>
-
-  </section>
-</section>
-
-
-
-
-
-
-<!--card/banner-->
-
-<section class="col-12 p-md-5" id="mini-banner">
-  <section class="row">
-    <section class="col-sm-3">
-      <section class="card text-center cartao">
-        <i class="bi bi-cash-coin icone-card"></i>
-          <section class="card-body">
-          <h1 class="txt-card">Orçamento</h1>
-          <p class="txt-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ut eius ducimus, sunt beatae possimus cupiditate quasi cum? Maiores, repellendus!</p>
-          <a href="#" class="btn btn-light botao-cart">Faça Agora</a>
+      <section class="carousel-inner">
+        <section class="carousel-item active">
+          <img src="images/casa1.jpg" alt="imagem 1" class="d-block w-100 carrosel img-fluid">
+          <section class="carousel-caption position-absolute top-50">
+            <h5></h5>
+            <a href="" class="btn btn-dark botao-slider">Veja Mais</a>
           </section>
         </section>
-    </section>
+
+
+        <section class="carousel-item">
+          <img src="images/casa2.jpg" alt="imagem 2" class="d-block w-100 carrosel img-fluid">
+          <section class="carousel-caption position-absolute top-50">
+            <h5></h5>
+            <a href="" class="btn btn-dark botao-slider">Veja Mais</a>
+          </section>
+        </section>
 
 
 
-
-<section class="col-sm-3">
-  <section class="card text-center cartao">
-    <i class="bi bi-telephone icone-card"></i>
-      <section class="card-body">
-      <h1 class="txt-card">Contato</h1>
-      <p class="txt-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ut eius ducimus, sunt beatae possimus cupiditate quasi cum? Maiores, repellendus!</p>
-      <a href="#" class="btn btn-light botao-cart">Contate-nos</a>
-      </section>
-    </section>
-</section>
+        <section class="carousel-item">
+          <img src="images/casa3.jpg" alt="imagem 3" class="d-block w-100 carrosel img-fluid">
+          <section class="carousel-caption position-absolute top-50">
+            <h5></h5>
+            <a href="" class="btn btn-dark botao-slider">Veja Mais</a>
+          </section>
+        </section>
 
 
 
-<section class="col-sm-3">
-  <section class="card text-center cartao">
-    <i class="bi bi-instagram icone-card"></i>
-      <section class="card-body">
-      <h1 class="txt-card">Instagram</h1>
-      <p class="txt-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ut eius ducimus, sunt beatae possimus cupiditate quasi cum? Maiores, repellendus!</p>
-      <a href="#" class="btn btn-light botao-cart">Veja agora</a>
-      </section>
-    </section>
-</section>
+        <section class="carousel-item"><img src="images/casa4.jpg" alt="imagem 4"
+            class="d-block w-100 carrosel img-fluid">
+          <section class="carousel-caption position-absolute top-50">
+            <h5></h5>
+            <a href="" class="btn btn-dark botao-slider">Veja Mais</a>
+          </section>
+        </section>
 
+        <button type="button" class="carousel-control-prev" data-bs-target="#slider" data-bs-slide="prev"><i
+            class="bi bi-arrow-left-short seta "></i></button>
 
+        <button type="button" class="carousel-control-next" data-bs-target="#slider" data-bs-slide="next"><i
+            class="bi bi-arrow-right-short seta "></i></button>
 
-<section class="col-sm-3">
-  <section class="card text-center cartao">
-    <i class="bi bi-info-circle icone-card"></i>
-      <section class="card-body">
-      <h1 class="txt-card">Mais informações</h1>
-      <p class="txt-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ut eius ducimus, sunt beatae possimus cupiditate quasi cum? Maiores, repellendus!</p>
-      <a href="#" class="btn btn-light botao-cart">Veja agora</a>
-      </section>
-    </section>
-</section>
-</section>
-</section>
-
-<!--Inicio do container-->
-
-<section class="container" id="featured-container">
-  <section class="row">
-    <section class="col-12 col-md-4">
-      <h3 class="title texto-primario">Projetos</h3>
-      <p class="subtitle texto-secundario">Conheça nossos projetos</p>
-    </section>
-
-    <!--inicio das imagens-->
-
-<section class="col-12">
-  <section class="row g-3">
-    <section class="col-4">
-      <img src="./images/casa1.jpg" alt="" class="img-fluid">
-      <section class="col-12 md-3">
-        <h4></h4>
-        <p></p>
       </section>
     </section>
 
-    <section class="col-4">
-      <img  src="./images/casa2.jpg" alt="" class="img-fluid">
-      <section class="col-12 md-3">
-        <h4></h4>
-        <p></p>
+
+
+
+
+
+    <!--card/banner-->
+
+    <section class="col-12 p-md-5" id="mini-banner">
+      <section class="row">
+        <section class="col-sm-3">
+          <section class="card text-center cartao">
+            <i class="bi bi-cash-coin icone-card"></i>
+            <section class="card-body">
+              <h1 class="txt-card">Orçamento</h1>
+              <p class="txt-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ut eius ducimus,
+                sunt beatae possimus cupiditate quasi cum? Maiores, repellendus!</p>
+              <a href="#" class="btn btn-light botao-card" data-bs-toggle="modal" data-bs-target="#modal1"
+                data-bs-whatever="@mdo">Faça Agora</a>
+            </section>
+          </section>
+        </section>
+
+
+
+
+        <section class="col-sm-3">
+          <section class="card text-center cartao">
+            <i class="bi bi-telephone icone-card"></i>
+            <section class="card-body">
+              <h1 class="txt-card">Contato</h1>
+              <p class="txt-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ut eius ducimus,
+                sunt beatae possimus cupiditate quasi cum? Maiores, repellendus!</p>
+              <a href="#" class="btn btn-light botao-card" data-bs-toggle="modal" data-bs-target="#modal2">Falar
+                Agora</a>
+            </section>
+          </section>
+        </section>
+
+
+
+        <section class="col-sm-3">
+          <section class="card text-center cartao">
+            <i class="bi bi-geo-alt icone-card"></i>
+            <section class="card-body">
+              <h1 class="txt-card">Encontrar</h1>
+              <p class="txt-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ut eius ducimus,
+                sunt beatae possimus cupiditate quasi cum? Maiores, repellendus!</p>
+              <a href="#" class="btn btn-light botao-card" data-bs-toggle="modal" data-bs-target="#modal3">Ver Mapa</a>
+            </section>
+          </section>
+        </section>
+
+
+
+        <section class="col-sm-3">
+          <section class="card text-center cartao">
+            <i class="bi bi-info-circle icone-card"></i>
+            <section class="card-body">
+              <h1 class="txt-card">Mais informações</h1>
+              <p class="txt-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ut eius ducimus,
+                sunt beatae possimus cupiditate quasi cum? Maiores, repellendus!</p>
+              <a href="#" class="btn btn-light botao-card" data-bs-toggle="modal" data-bs-target="#modal4">Veja
+                agora</a>
+            </section>
+          </section>
+        </section>
       </section>
     </section>
 
-    <section class="col-4">
-      <img  src="./images/casa3.jpg" alt="" class="img-fluid">
-      <section class="col-12 md-3">
-        <h4></h4>
-        <p></p>
+    <!--Inicio do container-->
+
+    <section class="container" id="featured-container">
+      <section class="row">
+        <section class="col-12 col-md-4">
+          <h3 class="texto-primario title">Projetos</h3>
+          <p class="subtitle texto-secundario">Conheça nossos projetos</p>
+        </section>
+
+        <!--inicio das imagens-->
+        <section class="col-12" id="featured-images">
+          <section class="row g-4">
+
+            <section class="col-12 col-md-4">
+              <img src="./images/casa1.jpg" alt="" class="img-fluid">
+              <section class="banner-content">
+                <p>Categoria</p>
+                <h3>Nome do projeto</h3>
+              </section>
+            </section>
+
+            <section class="col-12 col-md-4">
+              <img src="./images/casa2.jpg" alt="" class="img-fluid">
+              <section class="banner-content">
+                <p>Categoria</p>
+                <h3>Nome do projeto</h3>
+              </section>
+            </section>
+
+            <section class="col-12 col-md-4">
+              <img src="./images/casa3.jpg" alt="" class="img-fluid">
+              <section class="banner-content">
+                <p>Categoria</p>
+                <h3>Nome do projeto</h3>
+              </section>
+            </section>
+
+            <section class="col-12 col-md-4">
+              <img src="./images/casa4.jpg" alt="" class="img-fluid">
+              <section class="banner-content">
+                <p>Categoria</p>
+                <h3>Nome do projeto</h3>
+              </section>
+            </section>
+
+            <section class="col-12 col-md-4">
+              <img src="./images/casa5.jpg" alt="" class="img-fluid">
+              <section class="banner-content">
+                <p>Categoria</p>
+                <h3>Nome do projeto</h3>
+              </section>
+            </section>
+
+            <section class="col-12 col-md-4">
+              <img src="./images/casa6.jpg" alt="" class="img-fluid">
+              <section class="banner-content">
+                <p>Categoria</p>
+                <h3>Nome do projeto</h3>
+              </section>
+            </section>
+
+
+          </section>
+        </section>
+
+
+        <!--Final do container-->
       </section>
     </section>
 
-    <section class="col-4">
-      <img  src="./images/casa4.jpg" alt="" class="img-fluid">
-      <section class="col-12 md-3">
-        <h4></h4>
-        <p></p>
-      </section>
-    </section>
 
-    <section class="col-4">
-      <img  src="./images/casa5.jpg" alt="" class="img-fluid">
-      <section class="col-12 md-3">
-        <h4></h4>
-        <p></p>
-      </section>
-    </section>
 
-    <section class="col-4">
-      <img  src="./images/casa6.jpg" alt="" class="img-fluid">
-      <section class="col-12 md-3">
-        <h4></h4>
-        <p></p>
-      </section>
-    </section>
+    <!--MODAL-->
+    <!--modal 1-->
+    <div class="modal fade modal-css" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Orçamento</h1>
+            <button type="button" class=" btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Tamanho em m2:</label>
+                <input type="text" class="form-control" id="recipient-name">
+                <h5 class="text-secondary fst-italic">Valor do acabamento não incluso</h5>
+              </div>
+              <h1 class="text-success">R$<h1 id="valor">0,00</h1>
+              </h1>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark">Fazer Orçamento</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--fim modal 1-->
 
-  </section>
-</section>
+    <!--modal 2-->
+    <div class="modal fade modal-css" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class=" btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-body">
+            <p>Entre em contato através de uma das opções abaixo</p>
 
-<!--Final do container-->
-  </section>
-</section>
+            <p><a href="#" data-bs-toggle="tooltip" title="Tooltip" class="text-success">Whatsapp</a> ou ligue
+            <p class="text-success">17 99999-2222</p> Agradecemos seu contato.</p>
+          </div>
+          <div class="modal-footer">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--fim modal 2-->
+
+
+    <!--modal 3-->
+    <div class="modal fade modal-css" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class=" btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-body">
+            <iframe id="mapagoogle"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.432543952153!2d-48.50747642368773!3d-20.935137880690977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bbe469e09506f1%3A0x336e767ffea97cdf!2sSesi-SP!5e0!3m2!1spt-BR!2sbr!4v1698257219779!5m2!1spt-BR!2sbr"
+              width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="modal-footer">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--fim modal 3-->
+
+    <!--modal 4-->
+    <div class="modal fade modal-css" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class=" btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-body">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis unde vitae illo tenetur, inventore
+              sunt quidem, rerum commodi fugiat quos eius, possimus error assumenda sed! Perspiciatis cum, suscipit
+              velit inventore commodi voluptate provident eius voluptatem alias deserunt laborum autem aliquid similique
+              possimus corporis numquam quaerat nostrum. At cum vel soluta fugit iure magnam voluptatum maxime iusto
+              culpa optio, iste pariatur quam? Dolorem odit totam expedita nisi dolore praesentium exercitationem
+              deleniti dolorum doloribus iusto suscipit soluta, fuga quaerat delectus nobis. Expedita.</p>
+          </div>
+          <div class="modal-footer">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--fim modal 4-->
+
+<!--FOOTER-->
+
+<!--FIM DO FOOTER-->
 
 
 </body>
-    <!--Importando o Bootstrap-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-      defer
-    ></script>
-  </body>
+<!--Importando o Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+  defer></script>
+</body>
+
 </html>
