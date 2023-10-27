@@ -22,15 +22,15 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
 
   <link rel="stylesheet" href="./css/estilo.css">
-
-  <title>My house - Carlos H.</title>
+  <link rel="shortcut icon" href="./images/logo2.png" type="image/x-icon" />
+  <title>Hand Skull - Boxing.</title>
 </head>
 
 <header>
   <nav class="navbar navbar-expand-lg fixed-top bg-color">
     <section class="container py-3 cabecalho">
       <a href="" class="navbar-brand">
-        <img src="./images/silhueta-de-icone-de-casa.png" class="img-fluid" id="logo" />
+        <img src="./images/logo2.png" class="img-fluid fixed-top" id="logo"/>
       </a>
 
 
@@ -43,11 +43,11 @@
 
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-link">
 
-          <li class="nav-item links"><a class="nav-link" href="">Home</a></li>
-          <li class="nav-item links"><a class="nav-link" href="">Projetos</a></li>
-          <li class="nav-item links"><a class="nav-link" href="">Dicas</a></li>
-          <li class="nav-item links"><a class="nav-link" href="">Contato</a></li>
-          <li class="nav-item links"><a class="nav-link" href="">Sobre</a></li>
+          <li class="nav-item links"><a class="link" href="#">HOME</a></li>
+          <li class="nav-item links"><a class="link" href="#featured-images">VÍDEOS</a></li>
+          <li class="nav-item links"><a class="link" href="#planos">PLANOS</a></li>
+          <li class="nav-item links"><a class="link" href="#footer">CONTATO</a></li>
+          <li class="nav-item links"><a class="link" href="#" data-bs-toggle="modal" data-bs-target="#modal4">SOBRE</a></li>
 
         </ul>
 
@@ -88,39 +88,39 @@
 
       <section class="carousel-inner">
         <section class="carousel-item active">
-          <img src="images/casa1.jpg" alt="imagem 1" class="d-block w-100 carrosel img-fluid">
+          <img src="images/1.png" alt="imagem 1" class="d-block w-100 carrosel img-fluid">
           <section class="carousel-caption position-absolute top-50">
             <h5></h5>
-            <a href="" class="btn btn-dark botao-slider">Veja Mais</a>
+            <a href="" class="btn btn-light botao-slider text-sm-center">COMECE HOJE</a>
           </section>
         </section>
 
 
         <section class="carousel-item">
-          <img src="images/casa2.jpg" alt="imagem 2" class="d-block w-100 carrosel img-fluid">
+          <img src="images/2.png" alt="imagem 2" class="d-block w-100 carrosel img-fluid">
           <section class="carousel-caption position-absolute top-50">
             <h5></h5>
-            <a href="" class="btn btn-dark botao-slider">Veja Mais</a>
+            <a href="" class="btn btn-light botao-slider text-sm-center">COMECE HOJE</a>
           </section>
         </section>
 
 
 
         <section class="carousel-item">
-          <img src="images/casa3.jpg" alt="imagem 3" class="d-block w-100 carrosel img-fluid">
+          <img src="images/3.png" alt="imagem 3" class="d-block w-100 carrosel img-fluid">
           <section class="carousel-caption position-absolute top-50">
             <h5></h5>
-            <a href="" class="btn btn-dark botao-slider">Veja Mais</a>
+            <a href="" class="btn btn-light botao-slider text-sm-center">COMECE HOJE</a>
           </section>
         </section>
 
 
 
-        <section class="carousel-item"><img src="images/casa4.jpg" alt="imagem 4"
+        <section class="carousel-item"><img src="images/2.png" alt="imagem 4"
             class="d-block w-100 carrosel img-fluid">
           <section class="carousel-caption position-absolute top-50">
             <h5></h5>
-            <a href="" class="btn btn-dark botao-slider">Veja Mais</a>
+            <a href="" class="btn btn-light botao-slider text-sm-center">COMECE HOJE</a>
           </section>
         </section>
 
@@ -146,10 +146,9 @@
           <section class="card text-center cartao">
             <i class="bi bi-cash-coin icone-card"></i>
             <section class="card-body">
-              <h1 class="txt-card">Orçamento</h1>
-              <p class="txt-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ut eius ducimus,
-                sunt beatae possimus cupiditate quasi cum? Maiores, repellendus!</p>
-              <a href="#" class="btn btn-light botao-card" data-bs-toggle="modal" data-bs-target="#modal1"
+              <h1 class="txt-card">Assinaturas</h1>
+              <p class="txt-card">Veja as assinaturas disponíveis clicando no botão abaixo</p>
+              <a href="#planos" class="btn btn-light botao-card"
                 data-bs-whatever="@mdo">Faça Agora</a>
             </section>
           </section>
@@ -163,9 +162,8 @@
             <i class="bi bi-telephone icone-card"></i>
             <section class="card-body">
               <h1 class="txt-card">Contato</h1>
-              <p class="txt-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ut eius ducimus,
-                sunt beatae possimus cupiditate quasi cum? Maiores, repellendus!</p>
-              <a href="#" class="btn btn-light botao-card" data-bs-toggle="modal" data-bs-target="#modal2">Falar
+              <p class="txt-card">Entre em contato clicando no botão abaixo</p>
+              <a href="#footer" class="btn btn-light botao-card">Falar
                 Agora</a>
             </section>
           </section>
@@ -178,8 +176,7 @@
             <i class="bi bi-geo-alt icone-card"></i>
             <section class="card-body">
               <h1 class="txt-card">Encontrar</h1>
-              <p class="txt-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ut eius ducimus,
-                sunt beatae possimus cupiditate quasi cum? Maiores, repellendus!</p>
+              <p class="txt-card">Abra o mapa para vizualizar a localização de nossa academia</p>
               <a href="#" class="btn btn-light botao-card" data-bs-toggle="modal" data-bs-target="#modal3">Ver Mapa</a>
             </section>
           </section>
@@ -192,8 +189,7 @@
             <i class="bi bi-info-circle icone-card"></i>
             <section class="card-body">
               <h1 class="txt-card">Mais informações</h1>
-              <p class="txt-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ut eius ducimus,
-                sunt beatae possimus cupiditate quasi cum? Maiores, repellendus!</p>
+              <p class="txt-card">Conheça mais sobre nós clicando no botão abaixo</p>
               <a href="#" class="btn btn-light botao-card" data-bs-toggle="modal" data-bs-target="#modal4">Veja
                 agora</a>
             </section>
@@ -207,59 +203,61 @@
     <section class="container" id="featured-container">
       <section class="row">
         <section class="col-12 col-md-4">
-          <h3 class="texto-primario title">Projetos</h3>
-          <p class="subtitle texto-secundario">Conheça nossos projetos</p>
+          <h3 class="texto-primario title">Vídeos</h3>
+          <p class="subtitle texto-secundario">Aulas Gratuitas</p>
         </section>
 
         <!--inicio das imagens-->
         <section class="col-12" id="featured-images">
           <section class="row g-4">
 
+            
             <section class="col-12 col-md-4">
-              <img src="./images/casa1.jpg" alt="" class="img-fluid">
+              <img src="./images/imagem1.jpg" alt="" class="img-fluid">
+             <section class="banner-content">
+                <p>Aulas</p>
+              <a href="https://www.youtube.com/watch?v=tPuvwPYjULw&t=6s&pp=ugMICgJwdBABGAHKBRRtYW5vcGxhIHZpcnR1YWwgYm94ZQ%3D%3D" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><h3>Manopla Virtual - 10 minutos</h3></a>
+              </section>
+            </section>
+
+
+            <section class="col-12 col-md-4">
+              <img src="./images/imagem2.jpg" alt="" class="img-fluid">
               <section class="banner-content">
-                <p>Categoria</p>
-                <h3>Nome do projeto</h3>
+                <p>Aulas</p>
+               <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7H731kYNgjA&psig=AOvVaw0h94vfhXs1iiwUYqYG1pZU&ust=1698502074342000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPCruKe0loIDFQAAAAAdAAAAABAE" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><h3>Movimentos de Cabeça</h3></a>
               </section>
             </section>
 
             <section class="col-12 col-md-4">
-              <img src="./images/casa2.jpg" alt="" class="img-fluid">
+              <img src="./images/imagem3.jpg" alt="" class="img-fluid">
               <section class="banner-content">
-                <p>Categoria</p>
-                <h3>Nome do projeto</h3>
+                <p>Aulas</p>
+               <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dmhlkn88S-hY&psig=AOvVaw3mHuLn5GJLWy0mpxe4ZaiS&ust=1698501155327000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjBm_GwloIDFQAAAAAdAAAAABAE" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><h3>Aprenda o Double-jab</h3></a>
               </section>
             </section>
 
             <section class="col-12 col-md-4">
-              <img src="./images/casa3.jpg" alt="" class="img-fluid">
+              <img src="./images/imagem4.jpg" alt="" class="img-fluid">
               <section class="banner-content">
-                <p>Categoria</p>
-                <h3>Nome do projeto</h3>
+                <p>Aulas</p>
+               <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3DiwIUX_b9gog&psig=AOvVaw0T2EJkITx0WwShLa35j5os&ust=1698501374158000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCG0dmxloIDFQAAAAAdAAAAABAE" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><h3>Melhore sua defesa</h3></a>
               </section>
             </section>
 
             <section class="col-12 col-md-4">
-              <img src="./images/casa4.jpg" alt="" class="img-fluid">
+              <img src="./images/imagem5.jpg" alt="" class="img-fluid">
               <section class="banner-content">
-                <p>Categoria</p>
-                <h3>Nome do projeto</h3>
+                <p>Aulas</p>
+             <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-vDjwwj_eGs&psig=AOvVaw1tnMkr-ZQcTZmLqNyECFnS&ust=1698501609967000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODlh8qyloIDFQAAAAAdAAAAABAE" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><h3>Melhore o controe de distância</h3></a>
               </section>
             </section>
 
             <section class="col-12 col-md-4">
-              <img src="./images/casa5.jpg" alt="" class="img-fluid">
+              <img src="./images/imagem6.jpg" alt="" class="img-fluid">
               <section class="banner-content">
-                <p>Categoria</p>
-                <h3>Nome do projeto</h3>
-              </section>
-            </section>
-
-            <section class="col-12 col-md-4">
-              <img src="./images/casa6.jpg" alt="" class="img-fluid">
-              <section class="banner-content">
-                <p>Categoria</p>
-                <h3>Nome do projeto</h3>
+                <p>Aulas</p>
+               <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3D7CrfZs072AM&psig=AOvVaw07v4jpdCOWr859gH4RgAt1&ust=1698501772749000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMCb0pezloIDFQAAAAAdAAAAABAE" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><h3>Defesa e Trabalho com pés</h3></a>
               </section>
             </section>
 
@@ -273,65 +271,59 @@
     </section>
 
 
+    <!--container assinar-->
+    <div class="card card-ass">
+      <div class="row g-0">
+        <div class="col-sm-12">
+          <img  src="./images/assinar.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-sm-12" id="planos">
+          <div class="card-body body-ass">
+            <h5 class="card-title txt-ass text-dark">Assine Já</h5>
+            <p class="card-text txt-ass text-light">89,90</p>
+            <p class="card-text txt-ass2 text-light">Por mês</p>
+            <button class="btn btn-dark btn-ass">ASSINAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--fim do container assinar-->
+
+<!--footer-->
+<div class="row" id="footer">
+        
+  <div class="col-md-6">
+      <h1 class="text-center text text-light" id="contato">Entre em contato</h1> 
+      
+      <i class="bi bi-youtube footer-i"></i>
+      <i class="bi bi-instagram footer-i"></i>
+      <i class="bi bi-twitter footer-i"></i>
+      <i class="bi bi-facebook footer-i"></i>
+      <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"><h4>Digite seu email</h4></label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"><h4>Digite seu texto</h4></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <div class="col-auto">
+              <button type="button" class="btn btn-footer">Enviar</button>
+            </div>
+        </div>
+        
+ 
+<!--fim do footer-->
+
 
     <!--MODAL-->
-    <!--modal 1-->
-    <div class="modal fade modal-css" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Orçamento</h1>
-            <button type="button" class=" btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="mb-3">
-                <label for="recipient-name" class="col-form-label">Tamanho em m2:</label>
-                <input type="text" class="form-control" id="recipient-name">
-                <h5 class="text-secondary fst-italic">Valor do acabamento não incluso</h5>
-              </div>
-              <h1 class="text-success">R$<h1 id="valor">0,00</h1>
-              </h1>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-dark">Fazer Orçamento</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--fim modal 1-->
-
-    <!--modal 2-->
-    <div class="modal fade modal-css" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <button type="button" class=" btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          <div class="modal-body">
-            <p>Entre em contato através de uma das opções abaixo</p>
-
-            <p><a href="#" data-bs-toggle="tooltip" title="Tooltip" class="text-success">Whatsapp</a> ou ligue
-            <p class="text-success">17 99999-2222</p> Agradecemos seu contato.</p>
-          </div>
-          <div class="modal-footer">
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--fim modal 2-->
-
-
+  
     <!--modal 3-->
     <div class="modal fade modal-css" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <button type="button" class=" btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           <div class="modal-body">
-            <iframe id="mapagoogle"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.432543952153!2d-48.50747642368773!3d-20.935137880690977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bbe469e09506f1%3A0x336e767ffea97cdf!2sSesi-SP!5e0!3m2!1spt-BR!2sbr!4v1698257219779!5m2!1spt-BR!2sbr"
-              width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.432543952153!2d-48.50747642368777!3d-20.935137880690977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bbe469e09506f1%3A0x336e767ffea97cdf!2sSesi-SP!5e0!3m2!1spt-BR!2sbr!4v1698432630402!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div class="modal-footer">
 
@@ -347,12 +339,7 @@
         <div class="modal-content">
           <button type="button" class=" btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           <div class="modal-body">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis unde vitae illo tenetur, inventore
-              sunt quidem, rerum commodi fugiat quos eius, possimus error assumenda sed! Perspiciatis cum, suscipit
-              velit inventore commodi voluptate provident eius voluptatem alias deserunt laborum autem aliquid similique
-              possimus corporis numquam quaerat nostrum. At cum vel soluta fugit iure magnam voluptatum maxime iusto
-              culpa optio, iste pariatur quam? Dolorem odit totam expedita nisi dolore praesentium exercitationem
-              deleniti dolorum doloribus iusto suscipit soluta, fuga quaerat delectus nobis. Expedita.</p>
+            <p>A Academia de Boxe HAND SKULL é um espaço dedicado a proporcionar uma experiência completa para entusiastas do boxe, desde iniciantes que desejam aprender as técnicas básicas até atletas experientes que buscam aprimorar suas habilidades e condicionamento físico. Com um ambiente focado na disciplina, determinação e superação, nossa academia oferece uma série de recursos e benefícios.</p>
           </div>
           <div class="modal-footer">
 
@@ -362,9 +349,9 @@
     </div>
     <!--fim modal 4-->
 
-<!--FOOTER-->
 
-<!--FIM DO FOOTER-->
+
+
 
 
 </body>
